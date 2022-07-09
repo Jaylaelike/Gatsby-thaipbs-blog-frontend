@@ -27,8 +27,7 @@ function TopCategories() {
     <TopCategoriesStyles>
       <SectionTitle>Top Categories</SectionTitle>
       <ParagraphText className="info">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae veniam
-        fuga minima.
+       เราจัดสรร ประเภทของบทความให้สอดคล้องกับความต้องการของผู้ใช้งาน เพื่อความสะดวกในการสืบค้นข้อมูล...
       </ParagraphText>
       <CategoryGrid categories={categories} />
     </TopCategoriesStyles>

@@ -11,11 +11,15 @@ function HeroSection() {
       <div className="container">
         <div className="hero__wrapper">
           <div className="left">
-            <h1 className="hero__heading">ThaiPBS Engineering Blog</h1>
+            <h1 className="hero__heading">Engineering Blog</h1>
+            <br>
+            </br>
             <ParagraphText className="hero__text">
               ยินดีต้อนรับสู่ศูนย์รวบรวมบทความ ที่จะแชร์ประสบการณ์ ความรู้ วิธีแก้ปัญหา ที่เพื่อนๆพนักงาน สำนักวิศวกรรม ไทยพีบีเอสได้ร่วมกันสร้างสรรค์
               และ แบ่งปันสิ่งดีๆที่เป็นประโยชน์ต่อการทำงานทั้งในปัจจุบันและ อนาคต
             </ParagraphText>
+            <br>
+            </br>
             <Button to="/blogs" tag={Link} className="hero__button">
               Explore Blogs
             </Button>

@@ -3,9 +3,9 @@ const sanityConfig = require('./sanity-config.js');
 
 module.exports = {
   siteMetadata: {
-    title: `TechHub-blog`,
+    title: `Engineering-blog`,
     siteUrl: `https://thaipbsblog.sanity.studio`,
-    description: `TechHub Blog is a platform for latest technology news and updates.`,
+    description: `Engineering-blog is a platform for latest blog news and updates for Knowledge Management.`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +16,9 @@ module.exports = {
       resolve: 'gatsby-source-sanity',
       options: {
         ...sanityConfig,
+        watchMode: true,
+        overlayDrafts: true,
+        token: process.env.MY_SANITY_TOKEN,  
       },
     },
     {
@@ -133,6 +136,15 @@ module.exports = {
             profileImage: node.profileImage,
           })),
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Kanit`
+        ],
+        display: 'swap'
+      }
     },
   ],
 };

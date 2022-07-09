@@ -12,10 +12,9 @@ function Footer() {
       <div className="container">
         <Logo />
         <ParagraphText className="footer__text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat neque
-          commodi perspiciatis quibusdam delectus voluptas ab eos natus laborum!
-          Veritatis, facilis modi. Ex, adipisci. Ab, atque. Debitis officia qui
-          vero!
+        ยินดีต้อนรับสู่ศูนย์รวบรวมบทความ ที่จะแชร์ประสบการณ์ วิธีแก้ปัญหา ที่เพื่อนๆพนักงาน 
+        สำนักวิศวกรรม ไทยพีบีเอสได้ร่วมกันสร้างสรรค์ และ 
+        แบ่งปันสิ่งดีๆที่เป็นประโยชน์ต่อการทำงานทั้งในปัจจุบันและ อนาคต
         </ParagraphText>
         <ul className="footer__menuList">
           {menu.map((item) => (
@@ -32,7 +31,7 @@ function Footer() {
           ))}
         </ul>
         <ParagraphText className="copyright">
-          © TechHub-Blog Creative {new Date().getFullYear()}. All rights
+          © Engineering-blog {new Date().getFullYear()}. All rights
           reserved
         </ParagraphText>
       </div>

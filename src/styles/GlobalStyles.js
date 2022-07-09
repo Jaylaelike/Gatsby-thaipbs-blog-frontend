@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100vh;
     line-height: 1.5;
     width: 100%;
-    font-family: 'Inter';
+    font-family: 'Kanit', sans-serif;
     background: var(--black-1);
     color: var(--white);
   }

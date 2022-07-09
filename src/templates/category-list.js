@@ -36,7 +36,7 @@ function Categories({ data, pageContext }) {
         <div className="container">
           <PageHeader
             title="All Categories"
-            description="This month will bring about the 88th Academy Awards. Starting in 1928, this prestigious award ceremony..."
+            description="เราจัดสรร ประเภทของบทความให้สอดคล้องกับความต้องการของผู้ใช้งาน เพื่อความสะดวกในการสืบค้นข้อมูล..."
           />
           <CategoryGrid categories={categories} />
           {numberOfPages > 1 && (

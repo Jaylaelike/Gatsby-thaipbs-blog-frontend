@@ -1,11 +1,12 @@
-import React from 'react';
-import { GrTechnology } from 'react-icons/gr';
-import LogoStyles from '../styles/LogoStyles';
+import React from "react";
+import { GrCodeSandbox } from "react-icons/gr";
+import LogoStyles from "../styles/LogoStyles";
+
 
 function Logo() {
   return (
     <LogoStyles to="/">
-      <GrTechnology />
+      <GrCodeSandbox />
     </LogoStyles>
   );
 }

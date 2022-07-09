@@ -1,18 +1,18 @@
 exports.createPages = async ({ graphql, actions }) => {
-  const postsPerPage = parseInt(process.env.GATSBY_POST_PER_PAGE) || 10;
+  const postsPerPage = parseInt(process.env.GATSBY_POST_PER_PAGE) || 10; // parseInt(process.env.GATSBY_POST_PER_PAGE) || 10
   // templates path
-  const singleBlogTemplate = require.resolve('./src/templates/single-blog.js');
+  const singleBlogTemplate = require.resolve("./src/templates/single-blog.js");
   const singleCategoryTemplate = require.resolve(
-    './src/templates/single-category.js'
+    "./src/templates/single-category.js"
   );
-  const blogListTemplate = require.resolve('./src/templates/blog-list.js');
+  const blogListTemplate = require.resolve("./src/templates/blog-list.js");
   const categoryListTemplate = require.resolve(
-    './src/templates/category-list.js'
+    "./src/templates/category-list.js"
   );
   const singleAuthorTemplate = require.resolve(
-    './src/templates/single-author.js'
+    "./src/templates/single-author.js"
   );
-  const authorListTemplate = require.resolve('./src/templates/author-list.js');
+  const authorListTemplate = require.resolve("./src/templates/author-list.js");
 
   const { createPage } = actions;
 

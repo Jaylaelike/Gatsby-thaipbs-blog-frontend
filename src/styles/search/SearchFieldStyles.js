@@ -9,7 +9,7 @@ export const SearchFieldStyles = styled.label`
     padding: 1rem;
     border-radius: 4px;
     color: var(--darkBlue);
-    font-family: Poppins;
+    font-family: 'Kanit';
     border: none;
     outline: none;
     &:focus {

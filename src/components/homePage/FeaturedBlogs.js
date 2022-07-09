@@ -39,9 +39,7 @@ function FeaturedBlogs() {
     <FeaturedBlogsStyles>
       <SectionTitle>Featured Blogs</SectionTitle>
       <ParagraphText className="featuredBlogs__text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nemo
-        ad provident consectetur quis eaque doloribus et, ducimus earum iste est
-        corporis
+      พบกับ Blog บทความวิธีการซ่อม เทคนิค และ ผลงานสร้างสรรค์ อันหลากหลายประเภทให้ได้แบ่งปันร่วมกัน...
       </ParagraphText>
       <BlogGrid blogs={featuredBlogs} />
     </FeaturedBlogsStyles>
