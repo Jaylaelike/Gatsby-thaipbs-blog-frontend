@@ -4,7 +4,7 @@ const sanityConfig = require('./sanity-config.js');
 module.exports = {
   siteMetadata: {
     title: `Engineering-blog`,
-    siteUrl: `https://thaipbsblog.sanity.studio`,
+    siteUrl: `https://frontend-thaipbs-blog-app.vercel.app`,
     description: `Engineering-blog is a platform for latest blog news and updates for Knowledge Management.`,
   },
   plugins: [
