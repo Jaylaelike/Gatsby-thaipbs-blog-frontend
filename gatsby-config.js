@@ -16,9 +16,9 @@ module.exports = {
       resolve: 'gatsby-source-sanity',
       options: {
         ...sanityConfig,
-        watchMode: true,
-        overlayDrafts: true,
-        token: process.env.MY_SANITY_TOKEN,  
+        token: process.env.MY_SANITY_TOKEN
+        //watchMode: true,
+        //overlayDrafts: true,  
       },
     },
     {
